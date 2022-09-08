@@ -1,0 +1,77 @@
+:root {
+   --cetral-position: center;
+}
+
+.back-home {
+        display: block;
+    text-align: center;
+    font-size: 20px;
+
+}
+
+.information {
+    background-color: #F3EEFB;
+    text-align: center;
+    flex: 1;
+    border: 10px solid white;
+    margin: 22px;
+}
+.text {
+display: flex;
+flex-direction: row;
+justify-content: space-evenly;
+}
+h1 {
+    font-size: 57px;
+    margin: auto;
+}
+h2 {
+    font-size: 30px;
+    margin: auto;
+}
+
+.contact-me {
+    text-align: var(--cetral-position);
+    font-size: 41px;
+}
+.contact-me a:hover {
+cursor: pointer;
+color: rgb(197, 216, 27);
+}
+.email {
+text-align: var(--cetral-position);
+    font-size: 17px;
+    color: rgb(98, 24, 121);
+}
+
+.buttons {
+    display: flex;
+    flex-direction: row;
+        justify-content: center;
+   
+}
+h1,h2,h3{
+text-align: var(--cetral-position);
+}
+h1 {
+font-size: 36px;
+}
+h2{
+font-size: 60px;
+}
+h3 {
+    font-size: 27px;
+}
+.connect, .info {
+padding: 15px;
+    margin: 50px;
+    font-size: 14px;
+    border: 1px solid rgb(137, 137, 197);
+    border-radius: 4px;
+}
+.connect {
+background-color: #a290cf;
+}
+.connect:hover {
+    cursor: pointer;
+}
