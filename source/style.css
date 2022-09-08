@@ -75,3 +75,11 @@ background-color: #a290cf;
 .connect:hover {
     cursor: pointer;
 }
+.git-hub{
+    display: flex;
+    flex-direction: row;
+        justify-content: center;
+}
+.name {
+    margin: 0 30px;
+}
