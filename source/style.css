@@ -2,6 +2,11 @@
    --cetral-position: center;
 }
 
+ .navbar-color {
+     background-color: #F8F9FA;
+ }
+
+
 .back-home {
         display: block;
     text-align: center;
@@ -10,24 +15,27 @@
 }
 
 .information {
-    background-color: #F3EEFB;
     text-align: center;
-    flex: 1;
-    border: 10px solid white;
-    margin: 22px;
 }
 .text {
-display: flex;
-flex-direction: row;
-justify-content: space-evenly;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
 }
 h1 {
     font-size: 57px;
     margin: auto;
 }
+.font-about-h1 {
+    font-size: 96px;
+}
 h2 {
     font-size: 30px;
     margin: auto;
+}
+.about-developer {
+    font-size: 24px;
+        opacity: 0.7;
 }
 
 .contact-me {
@@ -36,12 +44,12 @@ h2 {
 }
 .contact-me a:hover {
 cursor: pointer;
-color: rgb(197, 216, 27);
+color: rgb(62, 27, 216);
 }
 .email {
 text-align: var(--cetral-position);
     font-size: 17px;
-    color: rgb(98, 24, 121);
+    color: rgb(62, 27, 216);
 }
 
 .buttons {
@@ -54,26 +62,43 @@ h1,h2,h3{
 text-align: var(--cetral-position);
 }
 h1 {
-font-size: 36px;
+font-size: 60px;
 }
 h2{
-font-size: 60px;
+font-size: 96px;
+color: black;
 }
 h3 {
     font-size: 27px;
 }
 .connect, .info {
-padding: 15px;
+padding: 18px;
     margin: 50px;
-    font-size: 14px;
+    font-size: 18px;
     border: 1px solid rgb(137, 137, 197);
     border-radius: 4px;
 }
-.connect {
-background-color: #a290cf;
+
+.info {
+    color: blue;
 }
+.connect {
+background-color:#6C63FF;
+color: white;
+}
+
+.launch-btn {
+background-color: #6C63FF !important;
+padding: 15px !important;
+}
+
+.launch-btn:hover {
+    color: blue;
+}
+
 .connect:hover {
     cursor: pointer;
+    color: blue;
 }
 .git-hub{
     display: flex;
@@ -82,4 +107,16 @@ background-color: #a290cf;
 }
 .name {
     margin: 0 30px;
+}
+
+.size {
+    max-width: 100%;
+    height: auto;
+}
+
+.title {
+    margin-bottom: 1rem !important;
+    font-size: 48px;
+    color: black;
+text-align: left;
 }
