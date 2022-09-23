@@ -120,3 +120,31 @@ padding: 15px !important;
     color: black;
 text-align: left;
 }
+
+@media (max-width:412px) {
+    img {
+        display: none;
+    }
+         h1,
+         h2,
+         h3,
+         p {
+             text-align: center;
+         }
+         h1{
+            font-size: 40px;
+            
+         }       
+         
+         h2 {
+                     font-size: 40px;}
+                     .title {
+                        font-size: 35px;
+                        text-align: center;
+                     }
+                     .launch-btn {
+                        display: block;
+                        margin: 0 auto;
+                     }
+   
+}
